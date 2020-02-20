@@ -90,3 +90,13 @@ form div input {
 .container {
   padding: 100px;
 }
+
+.footer-text {
+  text-align: center;
+  font-size: smaller;
+  color: grey;
+}
+
+.footer {
+  align-content: center;
+}
