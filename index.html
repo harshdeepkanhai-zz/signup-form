@@ -1,42 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title> Mint Sign up page</title>
+    <title>Mint Sign up page</title>
     <link href="./css/main.css" rel="stylesheet" type="text/css" />
     <meta charset="UTF-8" />
   </head>
   <body>
     <section class="signin-header">
-      <div>
-        <div class="signin-text">
-          <p>Already have an account?</p>
-          <p><a href="#">I forgot my UserID or password?</a> </p>
-        </div>
-          <button>Sign In</button>
+      <div class="signin-text">
+        <p>Already have an account?</p>
+        <p><a href="#">I forgot my UserID or password?</a></p>
+      </div>
+      <div class="signin-button">
+        <button>Sign In</button>
       </div>
     </section>
-    <hr>
+    <hr />
 
     <main>
       <div class="card">
-        <form>
-          <div>
-            <label for="email">Email Address</label>
-              <input id="email" type="text" placeholder="Enter email" required>
-          </div>
-          <div>
-            <label for="phone">Phone</label>
-              <input id="phone" type="text" placeholder="Phone number" required>
+        <div class="form-heading">
+          <h2>Create an Account</h2>
+          <small
+            >One account for everything Intuit, including Mint.
+            <a href="#" title="learn-more">Learn more</a></small
+          >
+        </div>
+        <div class="container">
+          <form>
+            <div>
+              <label for="email">Email Address</label>
+              <input
+                id="email"
+                type="text"
+                placeholder="Enter email"
+                required
+              />
             </div>
-          <div>
-            <label for="password">Password</label>
-              <input id="password" type="password" placeholder="create password">
+            <div>
+              <label for="phone">Phone</label>
+              <input
+                id="phone"
+                type="text"
+                placeholder="Phone number"
+                required
+              />
             </div>
-          <div>
-            <button type="submit">Create Account</button>
-          </div>
-        </form>
+            <div>
+              <label for="password">Password</label>
+              <input
+                id="password"
+                type="password"
+                placeholder="create password"
+              />
+            </div>
+            <div class="create-account">
+              <button type="submit">Create Account</button>
+            </div>
+          </form>
+        </div>
       </div>
-  </main>
+    </main>
   </body>
 </html>
