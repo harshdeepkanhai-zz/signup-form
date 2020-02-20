@@ -11,6 +11,10 @@ body {
   margin: 20px;
 }
 
+.form-heading small {
+  font-size: smaller;
+}
+
 .signin-header {
   display: flex;
   justify-content: flex-end;
@@ -20,6 +24,7 @@ body {
 
 .signin-text small {
   display: flex;
+  font-size: smaller;
 }
 
 .signin-button button{
