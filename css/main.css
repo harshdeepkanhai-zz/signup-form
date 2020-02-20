@@ -28,7 +28,7 @@ body {
 }
 
 .signin-button button{
-  padding: 10px;
+  padding: 20px;
   border: none;
   height: inherit;
   background-color: #0077c5;
@@ -64,7 +64,7 @@ form div input {
   background: #0077c5;
   color: white;
   font-size: 1.2em;
-  padding: 10px;
+  padding: 20px;
   width: 100%;
   border-radius: 12px;
 }
@@ -80,6 +80,11 @@ form div input {
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.foot-note {
+  color: grey;
+  font-size: x-small;
 }
 
 .container {
