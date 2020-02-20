@@ -15,6 +15,21 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-top: 20px;
+}
+
+.signin-text small {
+  display: flex;
+}
+
+.signin-button button{
+  padding: 10px;
+  border: none;
+  height: inherit;
+  background-color: #0077c5;
+  color: aliceblue;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 small {
