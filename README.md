@@ -1,6 +1,7 @@
 # mint.com-signup-page
 
 > Replica of Mint.com-Signup-Page (Microverse: HTML Forms)
+> This project consists of building an HTML document that matches the appearance of mint.com’s signup page
 
 ## Built With
 
@@ -29,6 +30,4 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
-## 📝 License
 
-This project is [MIT](lic.url) licensed.
