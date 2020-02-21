@@ -136,7 +136,7 @@ form div input {
   font-size: 10px;
   color: #444;
   text-align: left;
-  margin-top: 0em;
+  margin: 0;
 }
 
 .footer-text {
