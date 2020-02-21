@@ -27,6 +27,12 @@ body {
   margin-top: 20px;
 }
 
+.signin-text {
+  float: left;
+  margin-left: 10px;
+  text-align: right;
+}
+
 .signin-text small {
   display: flex;
   font-size: smaller;
