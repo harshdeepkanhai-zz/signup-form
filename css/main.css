@@ -99,13 +99,19 @@ form div input {
 }
 
 .foot-note {
-  color: grey;
-  font-size: x-small;
+  font-size: 0.9em;
+  color: #8d9096;
+}
+
+.small-foot {
+  font-size: 0.8em;
+  padding: 20px;
+  background: #eceef1;
+  color: #8d9096;
 }
 
 .container {
   padding: 100px;
-  
 }
 
 .footer-text {
