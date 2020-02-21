@@ -114,6 +114,13 @@ form div input {
   padding: 100px;
 }
 
+.container-text {
+  font-weight: 400;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+}
+
 .footer-text {
   text-align: center;
   font-size: smaller;
