@@ -131,6 +131,14 @@ form div input {
   line-height: 25px;
 }
 
+#sms-warning {
+  padding: 5px 0;
+  font-size: 10px;
+  color: #444;
+  text-align: left;
+  margin-top: 0em;
+}
+
 .footer-text {
   text-align: center;
   font-size: smaller;
