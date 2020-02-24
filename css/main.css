@@ -18,7 +18,11 @@ body {
 }
 
 .form-heading h2 {
-  margin: 20px;
+  color: #4c4c4c;
+  font-weight: 400;
+  line-height: 1.1;
+  font-size: 24px;
+  font-family: AvenirNext, Avenir, Neue, Helvetica, Arial, sans-serif;
 }
 
 .form-heading small {
@@ -30,6 +34,12 @@ body {
   justify-content: flex-end;
   align-items: center;
   margin-top: 20px;
+}
+
+.signin-text {
+  float: left;
+  margin-left: 10px;
+  text-align: right;
 }
 
 .signin-text small {
@@ -78,7 +88,7 @@ form div input {
   width: 100%;
   margin: 5px;
   padding: 10px;
-  border: solid black 1px;
+  border: 1px solid #c1c5c8;
   border-radius: 3px;
 }
 
@@ -120,7 +130,22 @@ form div input {
 }
 
 .container {
-  padding: 100px;
+  padding: 50px;
+}
+
+.container-text {
+  font-weight: 400;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+#sms-warning {
+  padding: 5px 0;
+  font-size: 10px;
+  color: #444;
+  text-align: left;
+  margin: 0;
 }
 
 .footer-text {
@@ -136,4 +161,8 @@ form div input {
   background-color: var(--color-white);
   color: grey;
   text-align: center;
+}
+
+a {
+  color: #0077c5;
 }

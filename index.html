@@ -4,6 +4,8 @@
     <title>Mint Sign up page</title>
     <link href="./css/main.css" rel="stylesheet" type="text/css" />
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="30" />
   </head>
   <body>
     <header class="signin-header">
@@ -16,11 +18,11 @@
       </div>
     </header>
 
-    <div class="image"><img src="img/image.png" /></div>
+    <div class="image"><img src="img/image.png" alt="Company sign post"/></div>
     <main>
       <div class="card">
         <div class="form-heading">
-          <h2>Create an Account</h2>
+          <h2>Create an Intuit Account</h2>
           <small>
             One account for everything Intuit, including Mint. <br />
             <a href="#" title="learn-more">Learn more</a>
@@ -28,18 +30,19 @@
         </div>
         <div class="container">
           <form>
-            <div>
+            <div class="container-text">
               <label for="email">Email Address</label>
               <input id="email" type="text" required />
-            </div>
-            <div>
-              <label for="phone">Phone</label>
+            </div><br>
+            <div class="container-text">
+              <label for="phone">Phone (recommended)</label>
               <input id="phone" type="text" required />
-            </div>
-            <div>
+              <span id="sms-warning">Standard call, messaging or data rates may apply.</span>
+            </div><br>
+            <div class="container-text">
               <label for="password">Password</label>
               <input id="password" type="password" />
-            </div>
+            </div><br>
             <div class="create-account">
               <button type="submit">Create Account</button>
             </div>
@@ -54,13 +57,13 @@
             >
           </form>
         </div>
-        <div class="small-foot">
+        <footer class="small-foot">
           Invisible reCAPTCHA by Google
           <a href="https://www.google.com/intl/en/policies/privacy/"
             >Privacy Policy</a
           >
           and <a href="https://security.intuit.com/privacy">Terms of Use</a>.
-        </div>
+        </footer>
       </div>
     </main>
     <br /><br />
