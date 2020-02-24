@@ -1,3 +1,11 @@
+# Project Name
+    HTML Forms
+    > This project consists of building an HTML document that matches the appearance of mint.com’s signup page
+    > A sign-up page that consist of a static logoand request some inputs.
+
+    
+
+
 # mint.com-signup-page
 
 > Replica of Mint.com-Signup-Page (Microverse: HTML Forms)
@@ -23,12 +31,5 @@
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
--
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
+## Contributing
+    > Contributions, issues and feature requests are welcome!

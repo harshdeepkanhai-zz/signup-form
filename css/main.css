@@ -3,3 +3,157 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #eceef1;
+}
+
+.form-heading h2 {
+  color: #4c4c4c;
+  font-weight: 400;
+  line-height: 1.1;
+  font-size: 24px;
+  font-family: AvenirNext, Avenir, Neue, Helvetica, Arial, sans-serif;
+}
+
+.form-heading small {
+  font-size: smaller;
+}
+
+.signin-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.signin-text {
+  float: left;
+  margin-left: 10px;
+  text-align: right;
+}
+
+.signin-text small {
+  display: flex;
+  font-size: smaller;
+}
+
+.signin-button button {
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  height: inherit;
+  background-color: #0077c5;
+  color: aliceblue;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 3px;
+}
+
+.small {
+  font-size: 1em;
+}
+
+.image {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+main {
+  margin-top: 10px;
+}
+
+form div label {
+  display: block;
+  text-align: left;
+  margin: 5px;
+  font-weight: normal;
+  color: #404040;
+  font-size: 1em;
+  line-height: 2em;
+}
+
+form div input {
+  display: block;
+  font-size: 1em;
+  width: 100%;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #c1c5c8;
+  border-radius: 3px;
+}
+
+.create-account button {
+  margin: 5px;
+  border: none;
+  background: #0077c5;
+  color: white;
+  font-size: 1em;
+  padding: 10px;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.card {
+  margin: 0 auto;
+  width: 25%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  text-align: center;
+  padding-top: 30px;
+  background-color: white;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.foot-note {
+  font-size: 0.9em;
+  color: #8d9096;
+}
+
+.small-foot {
+  font-size: 0.8em;
+  padding: 20px;
+  background: #eceef1;
+  color: #8d9096;
+}
+
+.container {
+  padding: 50px;
+}
+
+.container-text {
+  font-weight: 400;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+#sms-warning {
+  padding: 5px 0;
+  font-size: 10px;
+  color: #444;
+  text-align: left;
+  margin: 0;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: smaller;
+  color: grey;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #eceef1;
+  color: grey;
+  text-align: center;
+}
+
+a {
+  color: #0077c5;
+}
