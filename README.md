@@ -1,19 +1,13 @@
-# Project Name
-    HTML Forms
-    > This project consists of building an HTML document that matches the appearance of mint.com’s signup page
-    > A sign-up page that consist of a static logoand request some inputs.
+# signup-form
 
-    
+- Designed a signup form
 
-
-# mint.com-signup-page
-
-> Replica of Mint.com-Signup-Page (Microverse: HTML Forms)
+![screenshot](./app_screenshot.png)
 
 ## Built With
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 
 👤 **Author1**
 
@@ -25,11 +19,17 @@
 
 - Github: [@harshdeepkanhai](https://github.com/harshdeepkanhai)
 - Twitter: [@harshdeepkanhai](https://twitter.com/harshdeepkanhai)
-- Linkedin: [harshdeep-kanhai](https://linkedin.com/harshdeep-kanhai)
+- Linkedin: [harshdeep-kanhai](https://www.linkedin.com/in/harshdeep-kanhai/)
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
+
+- W3Schools: [CSS Variables](https://www.w3schools.com/css/css3_variables.asp)
+- Inspiration: mint.com [signup page](https://accounts.intuit.com/signup.html)
+
 ## Contributing
+
     > Contributions, issues and feature requests are welcome!
